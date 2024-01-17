@@ -221,6 +221,7 @@ svg {
   padding-block: 0.75rem;
   height: fit-content;
   align-self: center;
+  background-color: white;
 }
 @media (max-width: 50em) {
   .header-link {
