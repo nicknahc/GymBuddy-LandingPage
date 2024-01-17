@@ -234,7 +234,7 @@ svg {
   background-color: var(--clr-accent-100);
 }
 .landing-page-content {
-  width: fit-content;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-content: flex-end;
