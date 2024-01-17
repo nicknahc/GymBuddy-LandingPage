@@ -224,14 +224,25 @@ svg {
   height: fit-content;
   align-self: center;
   background-color: white;
-  text-wrap: none;
+  min-width: max-content;
+  color: black !important;
 }
 @media (max-width: 50em) {
+  .logo-img {
+    width: 50%;
+  }
+  .header {
+    padding-inline: 1rem;
+    width: 100%;
+  }
   .header-link {
     display: none;
   }
   .header-buttons {
-    justify-content: flex-end;
+    width: fit-content;
+  }
+  .header-buttons .button {
+    padding-inline: 1rem;
   }
 }
 .landing-page {
@@ -339,6 +350,22 @@ h3 {
   }
   .feature-brief-item.reverse {
     flex-direction: column-reverse;
+  }
+  .feature-brief-text {
+    padding-left: 1rem;
+  }
+  .numbered-circle {
+    background: var(--clr-primary-400);
+    border-radius: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  h7 {
+    line-height: 1.5rem;
   }
 }
 .testimonials {
