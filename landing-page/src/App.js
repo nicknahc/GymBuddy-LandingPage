@@ -21,7 +21,11 @@ function App() {
       <section className="landing-page">
         <div className="landing-page-content side-padding">
           <h1 className="fs-900">gym together!</h1>
-          <img src="landing-image.png" alt=""></img>
+          <img
+            src="landing-image.png"
+            className="landing-page-img"
+            alt=""
+          ></img>
         </div>
       </section>
       <section className="stats side-padding">

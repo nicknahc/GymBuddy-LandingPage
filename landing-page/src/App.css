@@ -99,14 +99,13 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with 
+/* Make images easier to work with */
 img,
 picture,
 svg {
   max-width: 100%;
   display: block;
-}*/
-
+}
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -240,6 +239,9 @@ svg {
   flex-direction: column;
   align-content: flex-end;
   padding-top: 3rem;
+}
+.landing-page.img {
+  width: 100%;
 }
 h1 {
   color: var(--clr-accent-400);
