@@ -4,7 +4,7 @@ function App() {
     <div className="App">
       <header>
         <div className="header">
-          <div>
+          <div className="logo-img">
             <img src="logo.png" alt=""></img>
           </div>
           <ul className="header-buttons">

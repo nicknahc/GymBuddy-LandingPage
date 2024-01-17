@@ -77,7 +77,6 @@ ul,
 ol {
   list-style: none;
 }
-
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -201,6 +200,15 @@ svg {
 .App {
   width: 100%;
 }
+.logo-img {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 50em) {
+  .logo-img {
+    max-width: 30%;
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -221,6 +229,7 @@ svg {
   height: fit-content;
   align-self: center;
   background-color: white;
+  text-wrap: none;
 }
 @media (max-width: 50em) {
   .header-link {
