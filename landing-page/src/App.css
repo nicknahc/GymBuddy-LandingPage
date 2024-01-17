@@ -204,11 +204,6 @@ svg {
   display: flex;
   align-items: center;
 }
-@media (max-width: 50em) {
-  .logo-img {
-    max-width: 30%;
-  }
-}
 .header {
   display: flex;
   justify-content: space-between;
