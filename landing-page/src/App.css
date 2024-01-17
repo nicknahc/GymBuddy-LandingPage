@@ -218,7 +218,7 @@ svg {
   border: none;
   border-radius: 10px;
   padding-inline: 2rem;
-  padding-block: 0.5rem;
+  padding-block: 0.75rem;
   height: fit-content;
   align-self: center;
 }
@@ -315,20 +315,37 @@ h7 {
   line-height: 2rem;
 }
 h3 {
-  margin-bottom: 10dvh;
+  margin-bottom: 2rem;
 }
 @media (max-width: 50em) {
+  h3 {
+    margin-bottom: 0;
+  }
   .feature-brief {
     padding-block: 3rem;
   }
   .feature-brief-item {
     flex-direction: column;
   }
+  .feature-brief-item > * {
+    margin-top: 2rem;
+  }
   .feature-brief-item.reverse {
     flex-direction: column-reverse;
   }
 }
 .testimonials {
+  padding-block: 5rem;
+}
+.slider {
+  display: flex;
+  width: 100%;
+  padding-top: 3rem;
+  flex-shrink: none;
+  overflow-x: scroll;
+}
+.slider > * {
+  padding-inline: 0.5rem;
 }
 .about-us {
   padding-block: 5rem;

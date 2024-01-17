@@ -86,6 +86,23 @@ function App() {
         <div>
           <p className="section-caption">What Our Users Say</p>
           <h4 className="fs-800">Find your community 💙</h4>
+          <ul className="slider">
+            <li>
+              <img src="testimonial-1.png" alt=""></img>
+            </li>
+            <li>
+              <img src="testimonial-2.png" alt=""></img>
+            </li>
+            <li>
+              <img src="testimonial-2.png" alt=""></img>
+            </li>
+            <li>
+              <img src="testimonial-4.png" alt=""></img>
+            </li>
+            <li>
+              <img src="testimonial-2.png" alt=""></img>
+            </li>
+          </ul>
         </div>
       </section>
       <section className="about-us side-padding">
